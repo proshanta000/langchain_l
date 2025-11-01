@@ -22,3 +22,4 @@ uvicorn
 Langserve
 langchain-core
 sse_starlette
+mysql-connector-python
