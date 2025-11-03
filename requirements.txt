@@ -22,4 +22,13 @@ uvicorn
 Langserve
 langchain-core
 sse_starlette
+duckduckgo-search
+duckdb
 mysql-connector-python
+langchain_classic
+validators
+youtube-transcript-api
+pytube
+unstructured
+numexpr
+langgraph
