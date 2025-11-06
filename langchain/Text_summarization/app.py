@@ -42,7 +42,7 @@ if st.button("Summarize The Content From YT or Website"):
         try:
             with st.spinner("Processing content..."):
                 
-                # --- FIX: Initialize LLM HERE, where groq_api_key is available ---
+                # Initialize LLM HERE, where groq_api_key is available ---
                 llm = ChatGroq(model="llama-3.1-8b-instant", groq_api_key=groq_api_key)
 
                 # 2. Loading the website or YT video data

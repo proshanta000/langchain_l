@@ -1,7 +1,7 @@
 import os
 import streamlit as st # Streamlit is used to create the web interface for the application
-from langchain.chains import create_history_aware_retriever, create_retrieval_chain
-from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_classic.chains import create_history_aware_retriever, create_retrieval_chain
+from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 from langchain_chroma import Chroma # Chroma is the vector store (database) used to efficiently search document embeddings
 # Corrected import from ChatMessage to ChatMessageHistory
 from langchain_community.chat_message_histories import ChatMessageHistory # Used to store and manage the history of the conversation
